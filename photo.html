@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profile: Dobble</title>
+  <link rel="stylesheet" type="text/css" href="../Bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../CSS/ekko-lightbox.css">
+
+  <link rel="stylesheet" type="text/css" href="../social/css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="../social/css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <img src="../social/img/logo.png" class="logo">
+    <form class="form-inline">
+      <div class="form-group">
+        <input type="text" class="form-control" id="exampleInputPassword3" placeholder="Username">
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+      </div>
+      
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </form>
+  </div>
+</header>
+
+ <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div><!-- nav-bar header end -->
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="members.html">Members</a></li>
+            <li><a href="groups.html">Groups</a></li>
+            <li class="active"><a href="photo.html">Photo's</a></li>
+            <li><a href="profile.html">Profile</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="page-header">Photo's</h1>
+            <ul class="photos gallery-parent">
+              <li><a href="../social/img/sample1.jpg" data-title="Image One" data-footer="This is Image 1" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="this is image 1"><img src="../social/img/sample1.jpg" class="img-thumbnail"></a></li>
+
+              <li><a href="../social/img/sample2.jpg" data-title="Image Two" data-footer="This is Image 2" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="this is image 2"><img src="../social/img/sample2.jpg" class="img-thumbnail"></a></li>
+
+              <li><a href="../social/img/sample3.jpg" data-title="Image Three" data-footer="This is Image 3" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="this is image 3"><img src="../social/img/sample3.jpg" class="img-thumbnail"></a></li>
+
+              <li><a href="../social/img/sample4.jpg" data-title="Image Four" data-footer="This is Image 4" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="this is image 4"><img src="../social/img/sample4.jpg" class="img-thumbnail"></a></li>
+
+              <li><a href="../social/img/sample5.jpg" data-title="Image Five" data-footer="This is Image 5" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="this is image 5"><img src="../social/img/sample5.jpg" class="img-thumbnail"></a></li>
+
+              <li><a href="../social/img/sample6.jpg" data-title="Image Six" data-footer="This is Image 6" data-toggle="lightbox" data-gallery="mygallery" data-parent=".gallery-parent" data-hover="tooltip" data-placement="top" title="this is image 6"><img src="../social/img/sample6.jpg" class="img-thumbnail"></a></li>
+            </ul>
+          </div><!-- End col-md-8 -->
+          <div class="col-md-4">
+            
+            <div class="panel panel-default friends">
+              <div class="panel-heading">
+                <h3 class="panel-title">My Friends</h3>
+              </div>
+              <div class="panel-body">
+                <ul>
+                  <li><a class="thumbnail" href="profile.html"><img src="../social/img/user.png"></a></li>
+                  <li><a class="thumbnail" href="profile.html"><img src="../social/img/user.png"></a></li>
+                  <li><a class="thumbnail" href="profile.html"><img src="../social/img/user.png"></a></li>
+                  <li><a class="thumbnail" href="profile.html"><img src="../social/img/user.png"></a></li>
+                  <li><a class="thumbnail" href="profile.html"><img src="../social/img/user.png"></a></li>
+                  <li><a class="thumbnail" href="profile.html"><img src="../social/img/user.png"></a></li>
+                  <li><a class="thumbnail" href="profile.html"><img src="../social/img/user.png"></a></li>
+                  <li><a class="thumbnail" href="profile.html"><img src="../social/img/user.png"></a></li>
+                  <li><a class="thumbnail" href="profile.html"><img src="../social/img/user.png"></a></li>
+                  <li><a class="thumbnail" href="profile.html"><img src="../social/img/user.png"></a></li>
+                </ul>
+                <div class="clearfix"></div>
+                <a class="btn btn-primary" href="#">View All Friends</a>
+              </div>
+            </div>
+
+            <div class="panel panel-default groups">
+              <div class="panel-heading">
+                <h3 class="panel-title">User Groups</h3>
+              </div>
+              <div class="panel-body">
+                <div class="group-item">
+                  <img src="../social/img/group.png">
+                  <h4><a href="#">Sample Group One</a></h4>
+                  <p>This is a Dobble social network sample group</p>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="panel-body">
+                <div class="group-item">
+                  <img src="../social/img/group.png">
+                  <h4><a href="#">Sample Group One</a></h4>
+                  <p>This is a Dobble social network sample group</p>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="panel-body">
+                <div class="group-item">
+                  <img src="../social/img/group.png">
+                  <h4><a href="#">Sample Group One</a></h4>
+                  <p>This is a Dobble social network sample group</p>
+                </div>
+                <div class="clearfix"></div>
+                <a class="btn btn-primary" href="#">View all Groups</a>
+              </div>
+            </div>
+          </div><!-- end col-md-4 -->
+        </div>
+      </div>
+    </section>
+
+
+
+<footer>
+  <div class="container">
+    <p>Dobble Coopyright &copy; 2017, All Rights Reserved</p>
+  </div>
+</footer>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="../Bootstrap/js/bootstrap.min.js"></script>
+<script src="../script/ekko-lightbox.js"></script>
+<script src="../social/js/script.js"></script>
+</body>
+</html>
